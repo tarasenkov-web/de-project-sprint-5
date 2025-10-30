@@ -1,0 +1,6 @@
+1. courier_id, dm_couriers.courier_name, dm_timestamps.year, dm_timestamps.mnth, order_id, fct_product_sales.total_sum, dm_deliveres.rate, dm_deliveres.tip_sum
+
+2.dm_timestamps, dm_orders, fct_product_sales, dm_deliveres, dm_couriers
+
+3.couriers(courier_name, courier_id)
+deliveres(rate, order_id, courier_id, tip_sum)
